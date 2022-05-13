@@ -10,8 +10,8 @@ replace (
 	github.com/matryer/moq => github.com/rancher/moq v0.0.0-20200712062324-13d1f37d2d77
 	github.com/opencontainers/runc => github.com/opencontainers/runc v1.0.1
 
-	github.com/rancher/rancher/pkg/apis => ./pkg/apis
-	github.com/rancher/rancher/pkg/client => ./pkg/client
+	github.com/rancher/rancher/pkg/apis => github.com/aswa2ds/rancher-apis v1.26.4
+	github.com/rancher/rancher/pkg/client => github.com/aswa2ds/rancher-client v1.26.4
 	helm.sh/helm/v3 => github.com/rancher/helm/v3 v3.8.0-rancher1
 	k8s.io/api => k8s.io/api v0.23.3
 	k8s.io/apiextensions-apiserver => k8s.io/apiextensions-apiserver v0.23.3
